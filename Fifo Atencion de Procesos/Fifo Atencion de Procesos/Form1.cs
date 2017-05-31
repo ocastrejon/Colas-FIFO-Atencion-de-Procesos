@@ -67,9 +67,8 @@ namespace Fifo_Atencion_de_Procesos
 
             for (int i = 1; i <= 200; i++)
             {
-                _reporte += "===========================" + Environment.NewLine
-                          + "             Ciclo:  " + i + Environment.NewLine
-                          + "===========================" + Environment.NewLine;
+                _reporte += "=================" + Environment.NewLine
+                          + "Ciclo:  " + i + Environment.NewLine;
                 
                 if (_porcentaje >= 1 && _porcentaje <= 3)
                 {
@@ -87,8 +86,7 @@ namespace Fifo_Atencion_de_Procesos
 
                         _reporte += "Proceso: Sin proceso" + Environment.NewLine
                                         + "Ciclos originales: Null" + Environment.NewLine
-                                        + "Ciclos restantes:  Null" + Environment.NewLine
-                                        + "-----------------------------" + Environment.NewLine;
+                                        + "Ciclos restantes:  Null" + Environment.NewLine;
                         _ciclosOcio++; 
                     }
                     else
@@ -104,13 +102,17 @@ namespace Fifo_Atencion_de_Procesos
                 {
                     _reporte += "Proceso: Sin proceso" + Environment.NewLine
                                     + "Ciclos originales:  Null" + Environment.NewLine
-                                    + "Ciclos restabtes:   Null" + Environment.NewLine
-                                    + "-----------------------------" + Environment.NewLine;
+                                    + "Ciclos restabtes:   Null" + Environment.NewLine;
                     _ciclosOcio++;
                 }
 
                 _porcentaje = porcent.Next(1, 10);
             }
+        }
+
+        private void txtReporte_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

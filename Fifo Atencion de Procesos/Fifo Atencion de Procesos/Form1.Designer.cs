@@ -42,104 +42,106 @@
             // lblProcesosFaltantes
             // 
             this.lblProcesosFaltantes.AutoSize = true;
-            this.lblProcesosFaltantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProcesosFaltantes.Location = new System.Drawing.Point(24, 348);
+            this.lblProcesosFaltantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProcesosFaltantes.Location = new System.Drawing.Point(24, 219);
             this.lblProcesosFaltantes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProcesosFaltantes.Name = "lblProcesosFaltantes";
-            this.lblProcesosFaltantes.Size = new System.Drawing.Size(167, 20);
+            this.lblProcesosFaltantes.Size = new System.Drawing.Size(210, 29);
             this.lblProcesosFaltantes.TabIndex = 3;
             this.lblProcesosFaltantes.Text = "Procesos faltantes";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(28, 262);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(24, 106);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 40);
+            this.label1.Size = new System.Drawing.Size(240, 58);
             this.label1.TabIndex = 10;
             this.label1.Text = "Número de procesos\r\nfaltantes";
             // 
             // lblCiclosOcio
             // 
             this.lblCiclosOcio.AutoSize = true;
-            this.lblCiclosOcio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCiclosOcio.Location = new System.Drawing.Point(24, 200);
+            this.lblCiclosOcio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCiclosOcio.Location = new System.Drawing.Point(23, 26);
             this.lblCiclosOcio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCiclosOcio.Name = "lblCiclosOcio";
-            this.lblCiclosOcio.Size = new System.Drawing.Size(129, 20);
+            this.lblCiclosOcio.Size = new System.Drawing.Size(166, 29);
             this.lblCiclosOcio.TabIndex = 11;
             this.lblCiclosOcio.Text = "Ciclos de ocio";
             // 
             // txtNumProFaltantes
             // 
-            this.txtNumProFaltantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumProFaltantes.Location = new System.Drawing.Point(28, 305);
+            this.txtNumProFaltantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumProFaltantes.Location = new System.Drawing.Point(29, 168);
             this.txtNumProFaltantes.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumProFaltantes.Name = "txtNumProFaltantes";
             this.txtNumProFaltantes.ReadOnly = true;
-            this.txtNumProFaltantes.Size = new System.Drawing.Size(211, 26);
+            this.txtNumProFaltantes.Size = new System.Drawing.Size(211, 34);
             this.txtNumProFaltantes.TabIndex = 4;
             this.txtNumProFaltantes.TabStop = false;
             // 
             // txtListaProFaltantes
             // 
-            this.txtListaProFaltantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtListaProFaltantes.Location = new System.Drawing.Point(28, 371);
+            this.txtListaProFaltantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtListaProFaltantes.Location = new System.Drawing.Point(28, 252);
             this.txtListaProFaltantes.Margin = new System.Windows.Forms.Padding(4);
             this.txtListaProFaltantes.Multiline = true;
             this.txtListaProFaltantes.Name = "txtListaProFaltantes";
             this.txtListaProFaltantes.ReadOnly = true;
             this.txtListaProFaltantes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtListaProFaltantes.Size = new System.Drawing.Size(211, 218);
+            this.txtListaProFaltantes.Size = new System.Drawing.Size(276, 298);
             this.txtListaProFaltantes.TabIndex = 5;
             this.txtListaProFaltantes.TabStop = false;
             // 
             // txtCiclosOcio
             // 
-            this.txtCiclosOcio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCiclosOcio.Location = new System.Drawing.Point(28, 223);
+            this.txtCiclosOcio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCiclosOcio.Location = new System.Drawing.Point(29, 59);
             this.txtCiclosOcio.Margin = new System.Windows.Forms.Padding(4);
             this.txtCiclosOcio.Name = "txtCiclosOcio";
             this.txtCiclosOcio.ReadOnly = true;
-            this.txtCiclosOcio.Size = new System.Drawing.Size(211, 26);
+            this.txtCiclosOcio.Size = new System.Drawing.Size(211, 34);
             this.txtCiclosOcio.TabIndex = 6;
             this.txtCiclosOcio.TabStop = false;
             // 
             // txtReporte
             // 
-            this.txtReporte.Location = new System.Drawing.Point(268, 23);
+            this.txtReporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtReporte.Location = new System.Drawing.Point(340, 23);
             this.txtReporte.Margin = new System.Windows.Forms.Padding(4);
             this.txtReporte.Multiline = true;
             this.txtReporte.Name = "txtReporte";
             this.txtReporte.ReadOnly = true;
             this.txtReporte.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtReporte.Size = new System.Drawing.Size(257, 566);
+            this.txtReporte.Size = new System.Drawing.Size(278, 616);
             this.txtReporte.TabIndex = 7;
             this.txtReporte.TabStop = false;
+            this.txtReporte.TextChanged += new System.EventHandler(this.txtReporte_TextChanged);
             // 
             // bttonMostrarProcesos
             // 
             this.bttonMostrarProcesos.AutoSize = true;
-            this.bttonMostrarProcesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttonMostrarProcesos.Location = new System.Drawing.Point(28, 115);
+            this.bttonMostrarProcesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttonMostrarProcesos.Location = new System.Drawing.Point(28, 571);
             this.bttonMostrarProcesos.Margin = new System.Windows.Forms.Padding(4);
             this.bttonMostrarProcesos.Name = "bttonMostrarProcesos";
-            this.bttonMostrarProcesos.Size = new System.Drawing.Size(212, 74);
+            this.bttonMostrarProcesos.Size = new System.Drawing.Size(133, 68);
             this.bttonMostrarProcesos.TabIndex = 8;
-            this.bttonMostrarProcesos.Text = "Mostrar Procesos";
+            this.bttonMostrarProcesos.Text = "Mostrar\r\nProcesos";
             this.bttonMostrarProcesos.UseVisualStyleBackColor = true;
             this.bttonMostrarProcesos.Click += new System.EventHandler(this.bttonMostrarProcesos_Click);
             // 
             // bttonComenzar
             // 
             this.bttonComenzar.AutoSize = true;
-            this.bttonComenzar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttonComenzar.Location = new System.Drawing.Point(28, 23);
+            this.bttonComenzar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttonComenzar.Location = new System.Drawing.Point(171, 586);
             this.bttonComenzar.Margin = new System.Windows.Forms.Padding(4);
             this.bttonComenzar.Name = "bttonComenzar";
-            this.bttonComenzar.Size = new System.Drawing.Size(212, 74);
+            this.bttonComenzar.Size = new System.Drawing.Size(133, 39);
             this.bttonComenzar.TabIndex = 9;
             this.bttonComenzar.Text = "Comenzar";
             this.bttonComenzar.UseVisualStyleBackColor = true;
@@ -149,7 +151,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(556, 621);
+            this.ClientSize = new System.Drawing.Size(681, 663);
             this.Controls.Add(this.lblProcesosFaltantes);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblCiclosOcio);

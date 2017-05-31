@@ -38,8 +38,7 @@ namespace Fifo_Atencion_de_Procesos
 
             return "Proceso: " + _numProceso + Environment.NewLine
                  + "Ciclos originales:  " + _vidaComenzo + Environment.NewLine
-                 + "Ciclos restantes:   " + _vidaProceso + Environment.NewLine
-                 + "-----------------------------" + Environment.NewLine;
+                 + "Ciclos restantes:   " + _vidaProceso + Environment.NewLine;
         }
     }
 }
